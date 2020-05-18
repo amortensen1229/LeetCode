@@ -1,12 +1,8 @@
 #include <string>
 #include <iostream>
-
-
-
-
-
 std::string roman(int num) {
   std::string ret;
+  //Check largest value to smallest value:
   while (num) {
     if (num >= 1000) {
       ret += 'M';

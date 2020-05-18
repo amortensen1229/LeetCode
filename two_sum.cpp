@@ -1,7 +1,7 @@
 #include <vector>
 
 std::vector<int> twoSum(std::vector<int>& nums, int target) {
-  //now assuming sorted:
+  //assuming sorted:
   std::vector<int> ret;
   for (int i = 0; i < nums.size(); ++i) {
     for (int j = 0; j < nums.size(); ++j) {
@@ -16,23 +16,6 @@ std::vector<int> twoSum(std::vector<int>& nums, int target) {
   }
 }
 
-  /*
-  for (int i = 0; i < nums.size(); ++i) {
-    for (int j = 0; j < nums.size(); ++j) {
-      if (nums[i] + nums[j] == target && i !=j) {
-        ret.push_back(i);
-        ret.push_back(j);
-        return ret;
-      }
-    }
-  }
-  std::vector<int> ret2;
-  return ret2;
-}
-*/
-
-
 int main() {
-  std::vector<int> input;
   return 0;
 }
